@@ -1,4 +1,3 @@
-from tracemalloc import start
 import serial as ser
 from time import time
 import csv

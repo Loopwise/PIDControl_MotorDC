@@ -60,6 +60,6 @@ double computePID(){
     previousTime = currentTime;
 
     if(out > 255)return 255;
-    if(out < 0)return 0;
+    if(out < 60)return 0;
     return out;
 }
